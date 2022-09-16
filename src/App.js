@@ -1,8 +1,19 @@
 import './App.css';
+import ForkHeader from './components/ForkHeader';
+import ForkLoadingWord from './components/ForkLoadingWord';
+import ForkMain from './components/ForkMain';
+import ForkMessages from './components/ForkMessages';
+import ForkPlayerActions from './components/ForkPlayerActions';
 
 function App() {
   return (
-    <h1>Jogo da Forca</h1>
+    <>
+    <ForkHeader/>
+    <ForkMain/>
+    <ForkLoadingWord/>
+    <ForkMessages/>
+    <ForkPlayerActions/>
+    </>
   );
 }
 
