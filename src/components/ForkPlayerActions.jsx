@@ -1,6 +1,6 @@
 function ForkPlayerActions(){
     return(
-        <h1>ForkPlayerActions</h1>
+        <></>
     );
 };
 
