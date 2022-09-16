@@ -49,19 +49,23 @@ Será um single app com todas as funções centralizadas.
 - [ ] Criar conteúdo para os componentes
     - [x] ForkHeader (Componente de cabeçalho)
     - [ ] ForkMain (Componente principal, que faz a leitura dos demais)
-        - [ ] ForkLoadinWord (Componente que carrega a palavra sorteada)
+        - [ ] ForkLoadingWord (Componente que carrega a palavra sorteada)
         - [ ] ForkPlayerActions (Componente que contem as ações jogador)
         - [ ] ForkMessages (Componente que contém as mensagens de interação com o jogador)
 
 **Javascript**
 
-**Carregar palavra secreta**
+**Carregar a palavra sorteada**
 
-- [ ] Construir lista com as palavras que serão sorteadas
-- [ ] Construir função para sortear uma palavra aleatoriamente
-- [ ] Fazer contagem das letras que compôem a palavra
-- [ ] Exibir um indicativo da quantidade de letras
-- [ ] Exibir informação ao jogador sobre a quantidade de palavras
+- [x] Construir lista com as palavras que serão sorteadas
+- [x] Construir função para sortear uma palavra aleatoriamente
+- [x] Fazer contagem das letras que compôem a palavra
+- [x] Exibir um indicativo da quantidade de letras
+
+**Validações**
+
+- [ ] O jogador só poderá escolher uma letra por vez.
+- [ ] As letras devem ser maiúsculas e não levar em conta acentuação, independentemente do que o jogador escolher.
 
 **Implementação das regras**
 
@@ -82,13 +86,17 @@ Para facilitar a manutenção, e melhor visualização do andamento do projeto
 - Uma sigla indicativa da ação deverá preceder a mensagem de commit, conforme abaixo:
 
 > ADD - Adicionar nova implementação
+
 > UPD - Atualização de implementação
+
 > DEL - Exclusão de implementação
+
 > BUG - Informar mau funcionamento de uma implementação
+
 > FIX - Correção de implementação
 
 - Além da sigla, a descrição do commit deve conter o título da seção em **negrito** + descrição do componente ou função implementada;
-- Novos commits serão adicionados a cada nova implementação ou breakpoint importante do projeto, com base na lista de tarefas deste README;
+- Novos commits serão adicionados a cada nova implementação ou breakpoint significativo do projeto, com base na lista de tarefas deste README;
 - A mensagem deverá ser o mais descritiva possível: curta, direta e de fácil entendimento;
 - Utilizar referências da lista de tarefas para composição da mensagem.
 
